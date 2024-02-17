@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lateef', serif;
+  font-size: 20px;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.form {
+  width: 70%;
+  padding: 70px 30px 0;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 36px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.img {
+  position: relative;
+  width: 60%;
+  height: auto;
+  padding-top: 511px;
+  background-image: url("https://64.media.tumblr.com/ad38bedf4be169b41d2c0cbaf0da88c7/b4bd98b805fc14c6-b4/s1280x1920/a87535c2cb45ab9b963f8cb898c177bfc75207e5.jpg");
+  background-size: cover;
+}
+
+p {
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  width: 260px;
+  margin: 10px auto 0;
+  text-align: right;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url('https://64.media.tumblr.com/21ba9728c6f89ba51f68baa53de743b6/1d6ad04949c03edf-28/s500x750/ccb8aca80ae0a5aa81ac46ad08ba8a235c9a0e41.gifv');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 10px;
+  right: 300px;
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  border-color: #5b21b8;
+  border-radius: 50px;
+  background-color: #ffffff;
+  text-align: right;
+}
+
+.submit {
+  margin: 10px auto 0;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background: #5b21b8;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.submit:hover {
+  background-color: #2a0f57;
+}
+
+.remember-me {
+  display: flex;
+  direction: rtl;
+}
+
+.remember-me input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.forgot-password {
+  margin-top: -10px;
+  color: #5b21b8;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.forgot-password:hover {
+  color: #2a0f57;
+}
+
+footer {
+  background-color: #1c0b38;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15.8px 0;
+}
